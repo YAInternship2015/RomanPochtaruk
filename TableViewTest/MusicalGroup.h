@@ -10,7 +10,7 @@
 
 @interface MusicalGroup : NSObject
 
-@property (strong, nonatomic) NSString *foto;
+@property (strong, nonatomic) NSString *image;
 @property (strong, nonatomic) NSString *name;
 
 @end
