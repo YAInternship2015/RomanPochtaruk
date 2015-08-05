@@ -50,10 +50,10 @@
     nautilus.image  = @"Nautilus.jpg";
     [groups addObject:nautilus];
     
-    MusicalGroup *oe = [[MusicalGroup alloc]init];
-    oe.name = @"Океан Ельзы";
-    oe.image  = @"OE.jpg";
-    [groups addObject:oe];
+    MusicalGroup *okeanElzi = [[MusicalGroup alloc]init];
+    okeanElzi.name = @"Океан Ельзы";
+    okeanElzi.image  = @"OE.jpg";
+    [groups addObject:okeanElzi];
     
     MusicalGroup *ddt = [[MusicalGroup alloc]init];
     ddt.name = @"ДДТ";
@@ -71,10 +71,10 @@
     [groups addObject:scorpions];
     
     
-    MusicalGroup *masinaVremeni = [[MusicalGroup alloc]init];
-    masinaVremeni.name = @"Машина Времени";
-    masinaVremeni.image  = @"Mashina_Vremeni.jpg";
-    [groups addObject:masinaVremeni];
+    MusicalGroup *mashinaVremeni = [[MusicalGroup alloc]init];
+    mashinaVremeni.name = @"Машина Времени";
+    mashinaVremeni.image  = @"Mashina_Vremeni.jpg";
+    [groups addObject:mashinaVremeni];
     
 }
 
