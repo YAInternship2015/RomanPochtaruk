@@ -9,6 +9,8 @@
 #import "TableViewController.h"
 #import "MusicalGroup.h"
 
+#warning Я писал в своих пожеланиях, что не нужно лепить всю логику в один вью контроллер. Все данные о модельках MusicalGroup стоит вынести в отдельный класс датасорс. Этот класс будет создавать и хранить все модели. А вью контроллер будет у него спрашивать, сколько есть моделей всего и также контретную модель по индексу.
+
 @interface TableViewController () {
     
     NSMutableArray *groups;
@@ -78,6 +80,7 @@
     
 }
 
+#warning Этот метод здесь не нужен, так как ты ничего не добавил в дефолтную реализацию
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
@@ -102,6 +105,8 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCellIdentifier];
     
     }
+    
+#warning Использовать нативную ячейки - это хак)) Так ты не поиграешься в autolayout, а котором было сказано в задании. Создай свою ячейку (наследник UITableViewCell), добавь на нее лейэблу и картинку, используя autolayout. Также само заполнение ячейки моделью MusicalGroup должно быть инкапсулировано в самой ячейке, то есть у нее будет метод setupWithMusicalGroup: или вроде того
     MusicalGroup *group = groups[indexPath.row];
     cell.textLabel.text = group.name;
     cell.imageView.image = [UIImage imageNamed:group.image];
