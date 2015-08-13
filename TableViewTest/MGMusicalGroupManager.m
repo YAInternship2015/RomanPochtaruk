@@ -11,12 +11,12 @@
 #import "MGMusicalGroup.h"
 
 @implementation MGMusicalGroupManager{
-    
+#warning массив должен быть объявлен как @property
     NSArray *groups;
 }
 
 -(id)init {
-    
+#warning здесь также куча лишних пустых строк
     self = [super init];
     
     if (self) {

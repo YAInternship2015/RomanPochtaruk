@@ -11,7 +11,7 @@
 @implementation MGMusicalGroupCell
 
 -(void)setupCellWithName:(NSString *)name image:(UIImage *)image {
-    
+#warning после имени метода не нужна пустая строка. Это касается всех методов в приложении
     self.nameLabel.text = name;
     self.imageImgView.image = image;
 }

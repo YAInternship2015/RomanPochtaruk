@@ -15,7 +15,7 @@
 #import "MGMusicalGroupCell.h"
 
 @interface MusicalGroupsViewController () {
-    
+#warning не нужно хранить массив моделей, храните датасорс. Данные в нем могут меняться динамично. И храните его как @property
     NSArray *groups;
 }
 @end
@@ -23,7 +23,7 @@
 @implementation MusicalGroupsViewController
 
 - (void)viewDidLoad {
-    
+#warning и снова пустые строки
     [super viewDidLoad];
     
     UIEdgeInsets inset = UIEdgeInsetsMake(20, 0, 0, 0);
@@ -42,7 +42,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *kCellIdentifier = @"musicalGroupCell";
-    
+#warning вместо этого метода лучше использовать - (id)dequeueReusableCellWithIdentifier:(NSString *)identifier forIndexPath:(NSIndexPath *)indexPath, он всегда возвращает ячейку и тогла в проверке if (!cell) не будет смысла
     MGMusicalGroupCell *cell = (MGMusicalGroupCell *)[tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
     
     if (!cell) {

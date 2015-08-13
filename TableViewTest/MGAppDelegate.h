@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#warning Не нашел у Вас .gitignore файла
+
 @interface MGAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
