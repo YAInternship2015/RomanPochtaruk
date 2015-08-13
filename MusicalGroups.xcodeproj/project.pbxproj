@@ -8,15 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		840E59811B6BFBF4007ACB57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59801B6BFBF4007ACB57 /* main.m */; };
-		840E59841B6BFBF4007ACB57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59831B6BFBF4007ACB57 /* AppDelegate.m */; };
+		840E59841B6BFBF4007ACB57 /* MGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59831B6BFBF4007ACB57 /* MGAppDelegate.m */; };
 		840E598A1B6BFBF4007ACB57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840E59881B6BFBF4007ACB57 /* Main.storyboard */; };
 		840E598C1B6BFBF4007ACB57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E598B1B6BFBF4007ACB57 /* Images.xcassets */; };
 		840E598F1B6BFBF4007ACB57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E598D1B6BFBF4007ACB57 /* LaunchScreen.xib */; };
 		840E599B1B6BFBF4007ACB57 /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E599A1B6BFBF4007ACB57 /* TableViewTestTests.m */; };
-		840E59A61B6BFD5A007ACB57 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59A51B6BFD5A007ACB57 /* TableViewController.m */; };
-		840E59AC1B6C0C77007ACB57 /* MusicalGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59AB1B6C0C77007ACB57 /* MusicalGroup.m */; };
-		849C4D651B6CCBF000D16390 /* The_Beatles.png in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D5B1B6CCBF000D16390 /* The_Beatles.png */; };
-		849C4D661B6CCBF000D16390 /* DDT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D5C1B6CCBF000D16390 /* DDT.jpg */; };
+		840E59A61B6BFD5A007ACB57 /* MusicalGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59A51B6BFD5A007ACB57 /* MusicalGroupsViewController.m */; };
+		840E59AC1B6C0C77007ACB57 /* MGMusicalGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59AB1B6C0C77007ACB57 /* MGMusicalGroup.m */; };
+		841D173F1B7C92F500285D05 /* MGMusicalGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D173D1B7C92F500285D05 /* MGMusicalGroupCell.m */; };
+		841D17401B7C92F500285D05 /* MGMusicalGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841D173E1B7C92F500285D05 /* MGMusicalGroupCell.xib */; };
+		841D17451B7C939C00285D05 /* MGMusicalGroupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D17441B7C939C00285D05 /* MGMusicalGroupManager.m */; };
+		841D17481B7C956D00285D05 /* theBeatles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841D17461B7C956D00285D05 /* theBeatles.jpg */; };
+		841D17491B7C956D00285D05 /* DDT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841D17471B7C956D00285D05 /* DDT.jpg */; };
+		841D174D1B7C964200285D05 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 841D174B1B7C964200285D05 /* .gitignore */; };
+		841D174E1B7C964200285D05 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841D174C1B7C964200285D05 /* TemplateIcon2x.png */; };
 		849C4D671B6CCBF000D16390 /* Bon_Jovi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D5D1B6CCBF000D16390 /* Bon_Jovi.jpg */; };
 		849C4D681B6CCBF000D16390 /* Queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D5E1B6CCBF000D16390 /* Queen.jpg */; };
 		849C4D691B6CCBF000D16390 /* Kino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D5F1B6CCBF000D16390 /* Kino.jpg */; };
@@ -35,26 +40,40 @@
 			remoteGlobalIDString = 840E597A1B6BFBF4007ACB57;
 			remoteInfo = TableViewTest;
 		};
+		841D17411B7C937100285D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840E59731B6BFBF4007ACB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840E597A1B6BFBF4007ACB57;
+			remoteInfo = MusicalGroups;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		840E597B1B6BFBF4007ACB57 /* TableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840E597B1B6BFBF4007ACB57 /* MusicalGroups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicalGroups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840E597F1B6BFBF4007ACB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840E59801B6BFBF4007ACB57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		840E59821B6BFBF4007ACB57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		840E59831B6BFBF4007ACB57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840E59821B6BFBF4007ACB57 /* MGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAppDelegate.h; sourceTree = "<group>"; };
+		840E59831B6BFBF4007ACB57 /* MGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAppDelegate.m; sourceTree = "<group>"; };
 		840E59891B6BFBF4007ACB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840E598B1B6BFBF4007ACB57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		840E598E1B6BFBF4007ACB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		840E59941B6BFBF4007ACB57 /* TableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840E59941B6BFBF4007ACB57 /* MusicalGroupsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicalGroupsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840E59991B6BFBF4007ACB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840E599A1B6BFBF4007ACB57 /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
-		840E59A41B6BFD5A007ACB57 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		840E59A51B6BFD5A007ACB57 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		840E59AA1B6C0C77007ACB57 /* MusicalGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicalGroup.h; sourceTree = "<group>"; };
-		840E59AB1B6C0C77007ACB57 /* MusicalGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicalGroup.m; sourceTree = "<group>"; };
-		849C4D5B1B6CCBF000D16390 /* The_Beatles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = The_Beatles.png; sourceTree = "<group>"; };
-		849C4D5C1B6CCBF000D16390 /* DDT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DDT.jpg; sourceTree = "<group>"; };
+		840E59A41B6BFD5A007ACB57 /* MusicalGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicalGroupsViewController.h; sourceTree = "<group>"; };
+		840E59A51B6BFD5A007ACB57 /* MusicalGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicalGroupsViewController.m; sourceTree = "<group>"; };
+		840E59AA1B6C0C77007ACB57 /* MGMusicalGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMusicalGroup.h; sourceTree = "<group>"; };
+		840E59AB1B6C0C77007ACB57 /* MGMusicalGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMusicalGroup.m; sourceTree = "<group>"; };
+		841D173C1B7C92F500285D05 /* MGMusicalGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMusicalGroupCell.h; sourceTree = "<group>"; };
+		841D173D1B7C92F500285D05 /* MGMusicalGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMusicalGroupCell.m; sourceTree = "<group>"; };
+		841D173E1B7C92F500285D05 /* MGMusicalGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGMusicalGroupCell.xib; sourceTree = "<group>"; };
+		841D17431B7C939C00285D05 /* MGMusicalGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMusicalGroupManager.h; sourceTree = "<group>"; };
+		841D17441B7C939C00285D05 /* MGMusicalGroupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMusicalGroupManager.m; sourceTree = "<group>"; };
+		841D17461B7C956D00285D05 /* theBeatles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theBeatles.jpg; sourceTree = "<group>"; };
+		841D17471B7C956D00285D05 /* DDT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DDT.jpg; sourceTree = "<group>"; };
+		841D174B1B7C964200285D05 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		841D174C1B7C964200285D05 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 		849C4D5D1B6CCBF000D16390 /* Bon_Jovi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bon_Jovi.jpg; sourceTree = "<group>"; };
 		849C4D5E1B6CCBF000D16390 /* Queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queen.jpg; sourceTree = "<group>"; };
 		849C4D5F1B6CCBF000D16390 /* Kino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kino.jpg; sourceTree = "<group>"; };
@@ -95,8 +114,8 @@
 		840E597C1B6BFBF4007ACB57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				840E597B1B6BFBF4007ACB57 /* TableViewTest.app */,
-				840E59941B6BFBF4007ACB57 /* TableViewTestTests.xctest */,
+				840E597B1B6BFBF4007ACB57 /* MusicalGroups.app */,
+				840E59941B6BFBF4007ACB57 /* MusicalGroupsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,15 +124,13 @@
 			isa = PBXGroup;
 			children = (
 				849C4D5A1B6CCBF000D16390 /* images */,
-				840E59821B6BFBF4007ACB57 /* AppDelegate.h */,
-				840E59831B6BFBF4007ACB57 /* AppDelegate.m */,
-				840E59AA1B6C0C77007ACB57 /* MusicalGroup.h */,
-				840E59AB1B6C0C77007ACB57 /* MusicalGroup.m */,
-				840E59A41B6BFD5A007ACB57 /* TableViewController.h */,
-				840E59A51B6BFD5A007ACB57 /* TableViewController.m */,
+				841D17381B7C925500285D05 /* Modals */,
+				841D17391B7C925D00285D05 /* ViewControllers */,
+				840E59821B6BFBF4007ACB57 /* MGAppDelegate.h */,
+				840E59831B6BFBF4007ACB57 /* MGAppDelegate.m */,
 				840E59881B6BFBF4007ACB57 /* Main.storyboard */,
-				840E598B1B6BFBF4007ACB57 /* Images.xcassets */,
 				840E598D1B6BFBF4007ACB57 /* LaunchScreen.xib */,
+				840E598B1B6BFBF4007ACB57 /* Images.xcassets */,
 				840E597E1B6BFBF4007ACB57 /* Supporting Files */,
 			);
 			path = TableViewTest;
@@ -124,6 +141,8 @@
 			children = (
 				840E597F1B6BFBF4007ACB57 /* Info.plist */,
 				840E59801B6BFBF4007ACB57 /* main.m */,
+				841D174B1B7C964200285D05 /* .gitignore */,
+				841D174C1B7C964200285D05 /* TemplateIcon2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,11 +164,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		841D17381B7C925500285D05 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				841D173A1B7C926B00285D05 /* MusicalGroup */,
+			);
+			name = Modals;
+			sourceTree = "<group>";
+		};
+		841D17391B7C925D00285D05 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				841D173B1B7C92C800285D05 /* Cell */,
+				841D174A1B7C95C600285D05 /* Controller */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		841D173A1B7C926B00285D05 /* MusicalGroup */ = {
+			isa = PBXGroup;
+			children = (
+				840E59AA1B6C0C77007ACB57 /* MGMusicalGroup.h */,
+				840E59AB1B6C0C77007ACB57 /* MGMusicalGroup.m */,
+				841D17431B7C939C00285D05 /* MGMusicalGroupManager.h */,
+				841D17441B7C939C00285D05 /* MGMusicalGroupManager.m */,
+			);
+			name = MusicalGroup;
+			sourceTree = "<group>";
+		};
+		841D173B1B7C92C800285D05 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				841D173C1B7C92F500285D05 /* MGMusicalGroupCell.h */,
+				841D173D1B7C92F500285D05 /* MGMusicalGroupCell.m */,
+				841D173E1B7C92F500285D05 /* MGMusicalGroupCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		841D174A1B7C95C600285D05 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				840E59A41B6BFD5A007ACB57 /* MusicalGroupsViewController.h */,
+				840E59A51B6BFD5A007ACB57 /* MusicalGroupsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		849C4D5A1B6CCBF000D16390 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				849C4D5B1B6CCBF000D16390 /* The_Beatles.png */,
-				849C4D5C1B6CCBF000D16390 /* DDT.jpg */,
+				841D17461B7C956D00285D05 /* theBeatles.jpg */,
+				841D17471B7C956D00285D05 /* DDT.jpg */,
 				849C4D5D1B6CCBF000D16390 /* Bon_Jovi.jpg */,
 				849C4D5E1B6CCBF000D16390 /* Queen.jpg */,
 				849C4D5F1B6CCBF000D16390 /* Kino.jpg */,
@@ -165,9 +231,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		840E597A1B6BFBF4007ACB57 /* TableViewTest */ = {
+		840E597A1B6BFBF4007ACB57 /* MusicalGroups */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 840E599E1B6BFBF4007ACB57 /* Build configuration list for PBXNativeTarget "TableViewTest" */;
+			buildConfigurationList = 840E599E1B6BFBF4007ACB57 /* Build configuration list for PBXNativeTarget "MusicalGroups" */;
 			buildPhases = (
 				840E59771B6BFBF4007ACB57 /* Sources */,
 				840E59781B6BFBF4007ACB57 /* Frameworks */,
@@ -177,14 +243,14 @@
 			);
 			dependencies = (
 			);
-			name = TableViewTest;
+			name = MusicalGroups;
 			productName = TableViewTest;
-			productReference = 840E597B1B6BFBF4007ACB57 /* TableViewTest.app */;
+			productReference = 840E597B1B6BFBF4007ACB57 /* MusicalGroups.app */;
 			productType = "com.apple.product-type.application";
 		};
-		840E59931B6BFBF4007ACB57 /* TableViewTestTests */ = {
+		840E59931B6BFBF4007ACB57 /* MusicalGroupsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 840E59A11B6BFBF4007ACB57 /* Build configuration list for PBXNativeTarget "TableViewTestTests" */;
+			buildConfigurationList = 840E59A11B6BFBF4007ACB57 /* Build configuration list for PBXNativeTarget "MusicalGroupsTests" */;
 			buildPhases = (
 				840E59901B6BFBF4007ACB57 /* Sources */,
 				840E59911B6BFBF4007ACB57 /* Frameworks */,
@@ -194,10 +260,11 @@
 			);
 			dependencies = (
 				840E59961B6BFBF4007ACB57 /* PBXTargetDependency */,
+				841D17421B7C937100285D05 /* PBXTargetDependency */,
 			);
-			name = TableViewTestTests;
+			name = MusicalGroupsTests;
 			productName = TableViewTestTests;
-			productReference = 840E59941B6BFBF4007ACB57 /* TableViewTestTests.xctest */;
+			productReference = 840E59941B6BFBF4007ACB57 /* MusicalGroupsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 840E59761B6BFBF4007ACB57 /* Build configuration list for PBXProject "TableViewTest" */;
+			buildConfigurationList = 840E59761B6BFBF4007ACB57 /* Build configuration list for PBXProject "MusicalGroups" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,8 +298,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				840E597A1B6BFBF4007ACB57 /* TableViewTest */,
-				840E59931B6BFBF4007ACB57 /* TableViewTestTests */,
+				840E597A1B6BFBF4007ACB57 /* MusicalGroups */,
+				840E59931B6BFBF4007ACB57 /* MusicalGroupsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,16 +312,19 @@
 				849C4D6E1B6CCBF000D16390 /* Scorpions.jpg in Resources */,
 				849C4D6C1B6CCBF000D16390 /* OE.jpg in Resources */,
 				849C4D6D1B6CCBF000D16390 /* Pink_Floyd.jpg in Resources */,
+				841D17481B7C956D00285D05 /* theBeatles.jpg in Resources */,
+				841D174E1B7C964200285D05 /* TemplateIcon2x.png in Resources */,
 				849C4D671B6CCBF000D16390 /* Bon_Jovi.jpg in Resources */,
 				849C4D6B1B6CCBF000D16390 /* Nautilus.jpg in Resources */,
 				840E598A1B6BFBF4007ACB57 /* Main.storyboard in Resources */,
-				849C4D651B6CCBF000D16390 /* The_Beatles.png in Resources */,
 				849C4D691B6CCBF000D16390 /* Kino.jpg in Resources */,
 				849C4D6A1B6CCBF000D16390 /* Mashina_Vremeni.jpg in Resources */,
 				849C4D681B6CCBF000D16390 /* Queen.jpg in Resources */,
+				841D174D1B7C964200285D05 /* .gitignore in Resources */,
 				840E598F1B6BFBF4007ACB57 /* LaunchScreen.xib in Resources */,
 				840E598C1B6BFBF4007ACB57 /* Images.xcassets in Resources */,
-				849C4D661B6CCBF000D16390 /* DDT.jpg in Resources */,
+				841D17491B7C956D00285D05 /* DDT.jpg in Resources */,
+				841D17401B7C92F500285D05 /* MGMusicalGroupCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +342,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840E59841B6BFBF4007ACB57 /* AppDelegate.m in Sources */,
-				840E59A61B6BFD5A007ACB57 /* TableViewController.m in Sources */,
+				840E59841B6BFBF4007ACB57 /* MGAppDelegate.m in Sources */,
+				841D173F1B7C92F500285D05 /* MGMusicalGroupCell.m in Sources */,
+				841D17451B7C939C00285D05 /* MGMusicalGroupManager.m in Sources */,
+				840E59A61B6BFD5A007ACB57 /* MusicalGroupsViewController.m in Sources */,
 				840E59811B6BFBF4007ACB57 /* main.m in Sources */,
-				840E59AC1B6C0C77007ACB57 /* MusicalGroup.m in Sources */,
+				840E59AC1B6C0C77007ACB57 /* MGMusicalGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +364,13 @@
 /* Begin PBXTargetDependency section */
 		840E59961B6BFBF4007ACB57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 840E597A1B6BFBF4007ACB57 /* TableViewTest */;
+			target = 840E597A1B6BFBF4007ACB57 /* MusicalGroups */;
 			targetProxy = 840E59951B6BFBF4007ACB57 /* PBXContainerItemProxy */;
+		};
+		841D17421B7C937100285D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840E597A1B6BFBF4007ACB57 /* MusicalGroups */;
+			targetProxy = 841D17411B7C937100285D05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -400,7 +477,7 @@
 				INFOPLIST_FILE = TableViewTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MusicalGroups;
 			};
 			name = Debug;
 		};
@@ -411,7 +488,7 @@
 				INFOPLIST_FILE = TableViewTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MusicalGroups;
 			};
 			name = Release;
 		};
@@ -429,8 +506,8 @@
 				);
 				INFOPLIST_FILE = TableViewTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewTest.app/TableViewTest";
+				PRODUCT_NAME = MusicalGroupsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicalGroups.app/MusicalGroups";
 			};
 			name = Debug;
 		};
@@ -444,15 +521,15 @@
 				);
 				INFOPLIST_FILE = TableViewTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewTest.app/TableViewTest";
+				PRODUCT_NAME = MusicalGroupsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicalGroups.app/MusicalGroups";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		840E59761B6BFBF4007ACB57 /* Build configuration list for PBXProject "TableViewTest" */ = {
+		840E59761B6BFBF4007ACB57 /* Build configuration list for PBXProject "MusicalGroups" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				840E599C1B6BFBF4007ACB57 /* Debug */,
@@ -461,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		840E599E1B6BFBF4007ACB57 /* Build configuration list for PBXNativeTarget "TableViewTest" */ = {
+		840E599E1B6BFBF4007ACB57 /* Build configuration list for PBXNativeTarget "MusicalGroups" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				840E599F1B6BFBF4007ACB57 /* Debug */,
@@ -470,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		840E59A11B6BFBF4007ACB57 /* Build configuration list for PBXNativeTarget "TableViewTestTests" */ = {
+		840E59A11B6BFBF4007ACB57 /* Build configuration list for PBXNativeTarget "MusicalGroupsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				840E59A21B6BFBF4007ACB57 /* Debug */,

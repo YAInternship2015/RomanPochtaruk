@@ -1,5 +1,5 @@
 //
-//  TableViewController.h
+//  AppDelegate.h
 //  TableViewTest
 //
 //  Created by Admin on 31.07.15.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TableViewController : UITableViewController
+@interface MGAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (nonatomic, strong) UIWindow *window;
+
 
 @end
+

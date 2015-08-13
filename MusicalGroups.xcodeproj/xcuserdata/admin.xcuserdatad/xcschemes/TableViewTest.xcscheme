@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "840E597A1B6BFBF4007ACB57"
-               BuildableName = "TableViewTest.app"
-               BlueprintName = "TableViewTest"
-               ReferencedContainer = "container:TableViewTest.xcodeproj">
+               BuildableName = "MusicalGroups.app"
+               BlueprintName = "MusicalGroups"
+               ReferencedContainer = "container:MusicalGroups.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "840E59931B6BFBF4007ACB57"
-               BuildableName = "TableViewTestTests.xctest"
-               BlueprintName = "TableViewTestTests"
-               ReferencedContainer = "container:TableViewTest.xcodeproj">
+               BuildableName = "MusicalGroupsTests.xctest"
+               BlueprintName = "MusicalGroupsTests"
+               ReferencedContainer = "container:MusicalGroups.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "840E59931B6BFBF4007ACB57"
-               BuildableName = "TableViewTestTests.xctest"
-               BlueprintName = "TableViewTestTests"
-               ReferencedContainer = "container:TableViewTest.xcodeproj">
+               BuildableName = "MusicalGroupsTests.xctest"
+               BlueprintName = "MusicalGroupsTests"
+               ReferencedContainer = "container:MusicalGroups.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "840E597A1B6BFBF4007ACB57"
-            BuildableName = "TableViewTest.app"
-            BlueprintName = "TableViewTest"
-            ReferencedContainer = "container:TableViewTest.xcodeproj">
+            BuildableName = "MusicalGroups.app"
+            BlueprintName = "MusicalGroups"
+            ReferencedContainer = "container:MusicalGroups.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "840E597A1B6BFBF4007ACB57"
-            BuildableName = "TableViewTest.app"
-            BlueprintName = "TableViewTest"
-            ReferencedContainer = "container:TableViewTest.xcodeproj">
+            BuildableName = "MusicalGroups.app"
+            BlueprintName = "MusicalGroups"
+            ReferencedContainer = "container:MusicalGroups.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "840E597A1B6BFBF4007ACB57"
-            BuildableName = "TableViewTest.app"
-            BlueprintName = "TableViewTest"
-            ReferencedContainer = "container:TableViewTest.xcodeproj">
+            BuildableName = "MusicalGroups.app"
+            BlueprintName = "MusicalGroups"
+            ReferencedContainer = "container:MusicalGroups.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
