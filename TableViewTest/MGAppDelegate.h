@@ -9,9 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MGAppDelegate : UIResponder <UIApplicationDelegate>
-
 @property (nonatomic, strong) UIWindow *window;
-
-
 @end
 

@@ -13,23 +13,28 @@
 		840E598C1B6BFBF4007ACB57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E598B1B6BFBF4007ACB57 /* Images.xcassets */; };
 		840E598F1B6BFBF4007ACB57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E598D1B6BFBF4007ACB57 /* LaunchScreen.xib */; };
 		840E599B1B6BFBF4007ACB57 /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E599A1B6BFBF4007ACB57 /* TableViewTestTests.m */; };
-		840E59A61B6BFD5A007ACB57 /* MusicalGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59A51B6BFD5A007ACB57 /* MusicalGroupsViewController.m */; };
+		840E59A61B6BFD5A007ACB57 /* MGMusicalGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59A51B6BFD5A007ACB57 /* MGMusicalGroupsViewController.m */; };
 		840E59AC1B6C0C77007ACB57 /* MGMusicalGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E59AB1B6C0C77007ACB57 /* MGMusicalGroup.m */; };
-		841D173F1B7C92F500285D05 /* MGMusicalGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D173D1B7C92F500285D05 /* MGMusicalGroupCell.m */; };
-		841D17401B7C92F500285D05 /* MGMusicalGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841D173E1B7C92F500285D05 /* MGMusicalGroupCell.xib */; };
+		841D173F1B7C92F500285D05 /* MGMusicalGroupTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D173D1B7C92F500285D05 /* MGMusicalGroupTableCell.m */; };
+		841D17401B7C92F500285D05 /* MGMusicalGroupTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841D173E1B7C92F500285D05 /* MGMusicalGroupTableCell.xib */; };
 		841D17451B7C939C00285D05 /* MGMusicalGroupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D17441B7C939C00285D05 /* MGMusicalGroupManager.m */; };
 		841D17481B7C956D00285D05 /* theBeatles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841D17461B7C956D00285D05 /* theBeatles.jpg */; };
 		841D17491B7C956D00285D05 /* DDT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841D17471B7C956D00285D05 /* DDT.jpg */; };
 		841D174D1B7C964200285D05 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 841D174B1B7C964200285D05 /* .gitignore */; };
 		841D174E1B7C964200285D05 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841D174C1B7C964200285D05 /* TemplateIcon2x.png */; };
-		849C4D671B6CCBF000D16390 /* Bon_Jovi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D5D1B6CCBF000D16390 /* Bon_Jovi.jpg */; };
+		849C4D671B6CCBF000D16390 /* BonJovi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D5D1B6CCBF000D16390 /* BonJovi.jpg */; };
 		849C4D681B6CCBF000D16390 /* Queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D5E1B6CCBF000D16390 /* Queen.jpg */; };
 		849C4D691B6CCBF000D16390 /* Kino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D5F1B6CCBF000D16390 /* Kino.jpg */; };
-		849C4D6A1B6CCBF000D16390 /* Mashina_Vremeni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D601B6CCBF000D16390 /* Mashina_Vremeni.jpg */; };
+		849C4D6A1B6CCBF000D16390 /* MashinaVremeni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D601B6CCBF000D16390 /* MashinaVremeni.jpg */; };
 		849C4D6B1B6CCBF000D16390 /* Nautilus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D611B6CCBF000D16390 /* Nautilus.jpg */; };
 		849C4D6C1B6CCBF000D16390 /* OE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D621B6CCBF000D16390 /* OE.jpg */; };
-		849C4D6D1B6CCBF000D16390 /* Pink_Floyd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D631B6CCBF000D16390 /* Pink_Floyd.jpg */; };
+		849C4D6D1B6CCBF000D16390 /* PinkFloyd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D631B6CCBF000D16390 /* PinkFloyd.jpg */; };
 		849C4D6E1B6CCBF000D16390 /* Scorpions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849C4D641B6CCBF000D16390 /* Scorpions.jpg */; };
+		9C9480BE1B9B9DDC00A7864C /* MGContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9480BD1B9B9DDC00A7864C /* MGContainerViewController.m */; };
+		9C9480C11B9B9E2800A7864C /* MGCreateNewGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9480C01B9B9E2800A7864C /* MGCreateNewGroupViewController.m */; };
+		9C9480C51B9BA09200A7864C /* MGMusicalGroupCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9480C31B9BA09200A7864C /* MGMusicalGroupCollectionCell.m */; };
+		9C9480C61B9BA09200A7864C /* MGMusicalGroupCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9480C41B9BA09200A7864C /* MGMusicalGroupCollectionCell.xib */; };
+		9C9480D01B9BB18600A7864C /* MusicalGroup.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C9480CF1B9BB18600A7864C /* MusicalGroup.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,27 +66,35 @@
 		840E59941B6BFBF4007ACB57 /* MusicalGroupsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicalGroupsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840E59991B6BFBF4007ACB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840E599A1B6BFBF4007ACB57 /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
-		840E59A41B6BFD5A007ACB57 /* MusicalGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicalGroupsViewController.h; sourceTree = "<group>"; };
-		840E59A51B6BFD5A007ACB57 /* MusicalGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicalGroupsViewController.m; sourceTree = "<group>"; };
+		840E59A41B6BFD5A007ACB57 /* MGMusicalGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMusicalGroupsViewController.h; sourceTree = "<group>"; };
+		840E59A51B6BFD5A007ACB57 /* MGMusicalGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMusicalGroupsViewController.m; sourceTree = "<group>"; };
 		840E59AA1B6C0C77007ACB57 /* MGMusicalGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMusicalGroup.h; sourceTree = "<group>"; };
 		840E59AB1B6C0C77007ACB57 /* MGMusicalGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMusicalGroup.m; sourceTree = "<group>"; };
-		841D173C1B7C92F500285D05 /* MGMusicalGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMusicalGroupCell.h; sourceTree = "<group>"; };
-		841D173D1B7C92F500285D05 /* MGMusicalGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMusicalGroupCell.m; sourceTree = "<group>"; };
-		841D173E1B7C92F500285D05 /* MGMusicalGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGMusicalGroupCell.xib; sourceTree = "<group>"; };
+		841D173C1B7C92F500285D05 /* MGMusicalGroupTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMusicalGroupTableCell.h; sourceTree = "<group>"; };
+		841D173D1B7C92F500285D05 /* MGMusicalGroupTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMusicalGroupTableCell.m; sourceTree = "<group>"; };
+		841D173E1B7C92F500285D05 /* MGMusicalGroupTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGMusicalGroupTableCell.xib; sourceTree = "<group>"; };
 		841D17431B7C939C00285D05 /* MGMusicalGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMusicalGroupManager.h; sourceTree = "<group>"; };
 		841D17441B7C939C00285D05 /* MGMusicalGroupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMusicalGroupManager.m; sourceTree = "<group>"; };
 		841D17461B7C956D00285D05 /* theBeatles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theBeatles.jpg; sourceTree = "<group>"; };
 		841D17471B7C956D00285D05 /* DDT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DDT.jpg; sourceTree = "<group>"; };
 		841D174B1B7C964200285D05 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		841D174C1B7C964200285D05 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
-		849C4D5D1B6CCBF000D16390 /* Bon_Jovi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bon_Jovi.jpg; sourceTree = "<group>"; };
+		849C4D5D1B6CCBF000D16390 /* BonJovi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BonJovi.jpg; sourceTree = "<group>"; };
 		849C4D5E1B6CCBF000D16390 /* Queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queen.jpg; sourceTree = "<group>"; };
 		849C4D5F1B6CCBF000D16390 /* Kino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kino.jpg; sourceTree = "<group>"; };
-		849C4D601B6CCBF000D16390 /* Mashina_Vremeni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mashina_Vremeni.jpg; sourceTree = "<group>"; };
+		849C4D601B6CCBF000D16390 /* MashinaVremeni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MashinaVremeni.jpg; sourceTree = "<group>"; };
 		849C4D611B6CCBF000D16390 /* Nautilus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nautilus.jpg; sourceTree = "<group>"; };
 		849C4D621B6CCBF000D16390 /* OE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OE.jpg; sourceTree = "<group>"; };
-		849C4D631B6CCBF000D16390 /* Pink_Floyd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pink_Floyd.jpg; sourceTree = "<group>"; };
+		849C4D631B6CCBF000D16390 /* PinkFloyd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PinkFloyd.jpg; sourceTree = "<group>"; };
 		849C4D641B6CCBF000D16390 /* Scorpions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scorpions.jpg; sourceTree = "<group>"; };
+		9C9480BC1B9B9DDC00A7864C /* MGContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGContainerViewController.h; sourceTree = "<group>"; };
+		9C9480BD1B9B9DDC00A7864C /* MGContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGContainerViewController.m; sourceTree = "<group>"; };
+		9C9480BF1B9B9E2800A7864C /* MGCreateNewGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCreateNewGroupViewController.h; sourceTree = "<group>"; };
+		9C9480C01B9B9E2800A7864C /* MGCreateNewGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCreateNewGroupViewController.m; sourceTree = "<group>"; };
+		9C9480C21B9BA09200A7864C /* MGMusicalGroupCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMusicalGroupCollectionCell.h; sourceTree = "<group>"; };
+		9C9480C31B9BA09200A7864C /* MGMusicalGroupCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMusicalGroupCollectionCell.m; sourceTree = "<group>"; };
+		9C9480C41B9BA09200A7864C /* MGMusicalGroupCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGMusicalGroupCollectionCell.xib; sourceTree = "<group>"; };
+		9C9480CF1B9BB18600A7864C /* MusicalGroup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MusicalGroup.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,14 +136,12 @@
 		840E597D1B6BFBF4007ACB57 /* TableViewTest */ = {
 			isa = PBXGroup;
 			children = (
-				849C4D5A1B6CCBF000D16390 /* images */,
+				9C9480C71B9BAC7300A7864C /* Application */,
 				841D17381B7C925500285D05 /* Modals */,
 				841D17391B7C925D00285D05 /* ViewControllers */,
-				840E59821B6BFBF4007ACB57 /* MGAppDelegate.h */,
-				840E59831B6BFBF4007ACB57 /* MGAppDelegate.m */,
-				840E59881B6BFBF4007ACB57 /* Main.storyboard */,
-				840E598D1B6BFBF4007ACB57 /* LaunchScreen.xib */,
+				9C9480C81B9BAD0100A7864C /* Storyboard */,
 				840E598B1B6BFBF4007ACB57 /* Images.xcassets */,
+				849C4D5A1B6CCBF000D16390 /* Images */,
 				840E597E1B6BFBF4007ACB57 /* Supporting Files */,
 			);
 			path = TableViewTest;
@@ -167,7 +178,8 @@
 		841D17381B7C925500285D05 /* Modals */ = {
 			isa = PBXGroup;
 			children = (
-				841D173A1B7C926B00285D05 /* MusicalGroup */,
+				841D173A1B7C926B00285D05 /* MGMusicalGroup */,
+				9C9480CB1B9BAE3600A7864C /* MGMusicalGroupManager */,
 			);
 			name = Modals;
 			sourceTree = "<group>";
@@ -175,57 +187,131 @@
 		841D17391B7C925D00285D05 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				841D173B1B7C92C800285D05 /* Cell */,
-				841D174A1B7C95C600285D05 /* Controller */,
+				841D173B1B7C92C800285D05 /* Cells */,
+				841D174A1B7C95C600285D05 /* Controllers */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		841D173A1B7C926B00285D05 /* MusicalGroup */ = {
+		841D173A1B7C926B00285D05 /* MGMusicalGroup */ = {
 			isa = PBXGroup;
 			children = (
 				840E59AA1B6C0C77007ACB57 /* MGMusicalGroup.h */,
 				840E59AB1B6C0C77007ACB57 /* MGMusicalGroup.m */,
-				841D17431B7C939C00285D05 /* MGMusicalGroupManager.h */,
-				841D17441B7C939C00285D05 /* MGMusicalGroupManager.m */,
 			);
-			name = MusicalGroup;
+			name = MGMusicalGroup;
 			sourceTree = "<group>";
 		};
-		841D173B1B7C92C800285D05 /* Cell */ = {
+		841D173B1B7C92C800285D05 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				841D173C1B7C92F500285D05 /* MGMusicalGroupCell.h */,
-				841D173D1B7C92F500285D05 /* MGMusicalGroupCell.m */,
-				841D173E1B7C92F500285D05 /* MGMusicalGroupCell.xib */,
+				9C9480C91B9BADB500A7864C /* MGMusicalGroupTableCell */,
+				9C9480CA1B9BADDE00A7864C /* MGMusicalGroupCollectionCell */,
 			);
-			name = Cell;
+			name = Cells;
 			sourceTree = "<group>";
 		};
-		841D174A1B7C95C600285D05 /* Controller */ = {
+		841D174A1B7C95C600285D05 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				840E59A41B6BFD5A007ACB57 /* MusicalGroupsViewController.h */,
-				840E59A51B6BFD5A007ACB57 /* MusicalGroupsViewController.m */,
+				9C9480CC1B9BAE6D00A7864C /* MGContainerViewController */,
+				9C9480CD1B9BAE9700A7864C /* MGMusicalGroupTableViewController */,
+				9C9480CE1B9BAFB500A7864C /* MGCreateNewGroupViewController */,
 			);
-			name = Controller;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
-		849C4D5A1B6CCBF000D16390 /* images */ = {
+		849C4D5A1B6CCBF000D16390 /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				841D17461B7C956D00285D05 /* theBeatles.jpg */,
 				841D17471B7C956D00285D05 /* DDT.jpg */,
-				849C4D5D1B6CCBF000D16390 /* Bon_Jovi.jpg */,
+				849C4D5D1B6CCBF000D16390 /* BonJovi.jpg */,
 				849C4D5E1B6CCBF000D16390 /* Queen.jpg */,
 				849C4D5F1B6CCBF000D16390 /* Kino.jpg */,
-				849C4D601B6CCBF000D16390 /* Mashina_Vremeni.jpg */,
+				849C4D601B6CCBF000D16390 /* MashinaVremeni.jpg */,
 				849C4D611B6CCBF000D16390 /* Nautilus.jpg */,
 				849C4D621B6CCBF000D16390 /* OE.jpg */,
-				849C4D631B6CCBF000D16390 /* Pink_Floyd.jpg */,
+				849C4D631B6CCBF000D16390 /* PinkFloyd.jpg */,
 				849C4D641B6CCBF000D16390 /* Scorpions.jpg */,
 			);
+			name = Images;
 			path = images;
+			sourceTree = "<group>";
+		};
+		9C9480C71B9BAC7300A7864C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				840E59821B6BFBF4007ACB57 /* MGAppDelegate.h */,
+				840E59831B6BFBF4007ACB57 /* MGAppDelegate.m */,
+				9C9480CF1B9BB18600A7864C /* MusicalGroup.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		9C9480C81B9BAD0100A7864C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				840E59881B6BFBF4007ACB57 /* Main.storyboard */,
+				840E598D1B6BFBF4007ACB57 /* LaunchScreen.xib */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		9C9480C91B9BADB500A7864C /* MGMusicalGroupTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				841D173C1B7C92F500285D05 /* MGMusicalGroupTableCell.h */,
+				841D173D1B7C92F500285D05 /* MGMusicalGroupTableCell.m */,
+				841D173E1B7C92F500285D05 /* MGMusicalGroupTableCell.xib */,
+			);
+			name = MGMusicalGroupTableCell;
+			sourceTree = "<group>";
+		};
+		9C9480CA1B9BADDE00A7864C /* MGMusicalGroupCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				9C9480C21B9BA09200A7864C /* MGMusicalGroupCollectionCell.h */,
+				9C9480C31B9BA09200A7864C /* MGMusicalGroupCollectionCell.m */,
+				9C9480C41B9BA09200A7864C /* MGMusicalGroupCollectionCell.xib */,
+			);
+			name = MGMusicalGroupCollectionCell;
+			sourceTree = "<group>";
+		};
+		9C9480CB1B9BAE3600A7864C /* MGMusicalGroupManager */ = {
+			isa = PBXGroup;
+			children = (
+				841D17431B7C939C00285D05 /* MGMusicalGroupManager.h */,
+				841D17441B7C939C00285D05 /* MGMusicalGroupManager.m */,
+			);
+			name = MGMusicalGroupManager;
+			sourceTree = "<group>";
+		};
+		9C9480CC1B9BAE6D00A7864C /* MGContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C9480BC1B9B9DDC00A7864C /* MGContainerViewController.h */,
+				9C9480BD1B9B9DDC00A7864C /* MGContainerViewController.m */,
+			);
+			name = MGContainerViewController;
+			sourceTree = "<group>";
+		};
+		9C9480CD1B9BAE9700A7864C /* MGMusicalGroupTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				840E59A41B6BFD5A007ACB57 /* MGMusicalGroupsViewController.h */,
+				840E59A51B6BFD5A007ACB57 /* MGMusicalGroupsViewController.m */,
+			);
+			name = MGMusicalGroupTableViewController;
+			sourceTree = "<group>";
+		};
+		9C9480CE1B9BAFB500A7864C /* MGCreateNewGroupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C9480BF1B9B9E2800A7864C /* MGCreateNewGroupViewController.h */,
+				9C9480C01B9B9E2800A7864C /* MGCreateNewGroupViewController.m */,
+			);
+			name = MGCreateNewGroupViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,20 +397,22 @@
 			files = (
 				849C4D6E1B6CCBF000D16390 /* Scorpions.jpg in Resources */,
 				849C4D6C1B6CCBF000D16390 /* OE.jpg in Resources */,
-				849C4D6D1B6CCBF000D16390 /* Pink_Floyd.jpg in Resources */,
+				9C9480C61B9BA09200A7864C /* MGMusicalGroupCollectionCell.xib in Resources */,
+				849C4D6D1B6CCBF000D16390 /* PinkFloyd.jpg in Resources */,
 				841D17481B7C956D00285D05 /* theBeatles.jpg in Resources */,
 				841D174E1B7C964200285D05 /* TemplateIcon2x.png in Resources */,
-				849C4D671B6CCBF000D16390 /* Bon_Jovi.jpg in Resources */,
+				849C4D671B6CCBF000D16390 /* BonJovi.jpg in Resources */,
+				9C9480D01B9BB18600A7864C /* MusicalGroup.plist in Resources */,
 				849C4D6B1B6CCBF000D16390 /* Nautilus.jpg in Resources */,
 				840E598A1B6BFBF4007ACB57 /* Main.storyboard in Resources */,
 				849C4D691B6CCBF000D16390 /* Kino.jpg in Resources */,
-				849C4D6A1B6CCBF000D16390 /* Mashina_Vremeni.jpg in Resources */,
+				849C4D6A1B6CCBF000D16390 /* MashinaVremeni.jpg in Resources */,
 				849C4D681B6CCBF000D16390 /* Queen.jpg in Resources */,
 				841D174D1B7C964200285D05 /* .gitignore in Resources */,
 				840E598F1B6BFBF4007ACB57 /* LaunchScreen.xib in Resources */,
 				840E598C1B6BFBF4007ACB57 /* Images.xcassets in Resources */,
 				841D17491B7C956D00285D05 /* DDT.jpg in Resources */,
-				841D17401B7C92F500285D05 /* MGMusicalGroupCell.xib in Resources */,
+				841D17401B7C92F500285D05 /* MGMusicalGroupTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,11 +431,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				840E59841B6BFBF4007ACB57 /* MGAppDelegate.m in Sources */,
-				841D173F1B7C92F500285D05 /* MGMusicalGroupCell.m in Sources */,
+				9C9480C51B9BA09200A7864C /* MGMusicalGroupCollectionCell.m in Sources */,
+				841D173F1B7C92F500285D05 /* MGMusicalGroupTableCell.m in Sources */,
 				841D17451B7C939C00285D05 /* MGMusicalGroupManager.m in Sources */,
-				840E59A61B6BFD5A007ACB57 /* MusicalGroupsViewController.m in Sources */,
+				840E59A61B6BFD5A007ACB57 /* MGMusicalGroupsViewController.m in Sources */,
+				9C9480BE1B9B9DDC00A7864C /* MGContainerViewController.m in Sources */,
 				840E59811B6BFBF4007ACB57 /* main.m in Sources */,
 				840E59AC1B6C0C77007ACB57 /* MGMusicalGroup.m in Sources */,
+				9C9480C11B9B9E2800A7864C /* MGCreateNewGroupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

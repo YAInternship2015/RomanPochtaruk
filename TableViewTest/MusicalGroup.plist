@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Scorpions</string>
+		<key>image</key>
+		<string>Scorpions.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pink Floyd</string>
+		<key>image</key>
+		<string>PinkFloyd.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Океан Ельзи</string>
+		<key>image</key>
+		<string>OE.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Наутилус</string>
+		<key>image</key>
+		<string>Nautilus.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Машина Времени</string>
+		<key>image</key>
+		<string>MashinaVremeni.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Кино</string>
+		<key>image</key>
+		<string>Kino.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Queen</string>
+		<key>image</key>
+		<string>Queen.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bon Jovi</string>
+		<key>image</key>
+		<string>BonJovi.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ДДТ</string>
+		<key>image</key>
+		<string>DDT.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>The Beatles</string>
+		<key>image</key>
+		<string>theBeatles.jpg</string>
+	</dict>
+</array>
+</plist>

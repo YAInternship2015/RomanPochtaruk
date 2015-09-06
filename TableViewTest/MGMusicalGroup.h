@@ -11,10 +11,8 @@
 #import <UIKit/UIKit.h>
 
 @interface MGMusicalGroup : NSObject
-
 @property (nonatomic, strong, readonly) NSString *name;
 @property (nonatomic, strong, readonly) UIImage *image;
 
 -(id)initWithName:(NSString *)name image:(UIImage *)image;
-
 @end
