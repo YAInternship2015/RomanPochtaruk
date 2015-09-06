@@ -21,7 +21,7 @@ static NSString *kMusicaGroupViewControllerIdentifier = @"musicaGroupViewControl
     [super viewDidLoad];
     self.musicalGroupsViewController = [self.storyboard instantiateViewControllerWithIdentifier:kMusicaGroupViewControllerIdentifier];
     [self addChildViewController:self.musicalGroupsViewController];
-    //self.tableViewController.view.frame = self.view.frame;
+    self.musicalGroupsViewController.view.frame = self.view.frame;
     [self.view addSubview:self.musicalGroupsViewController.view];
     [self.musicalGroupsViewController didMoveToParentViewController:self];
 }
